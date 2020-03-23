@@ -1,6 +1,6 @@
 # Lokalise Theme for ZenDesk
 
-[Lokalise Theme used on Zendesk](https://lokalisesupport.zendesk.com/hc/en-us), based on the [default Copenhagen theme for Zendesk Guide](https://github.com/zendesk/copenhagen_theme) (licensed under (Apache 2.0)[https://github.com/zendesk/copenhagen_theme/blob/master/LICENSE]).
+[Lokalise Theme used on Zendesk](https://lokalisesupport.zendesk.com/hc/en-us), based on the [default Copenhagen theme for Zendesk Guide](https://github.com/zendesk/copenhagen_theme) (licensed under [Apache 2.0](https://github.com/zendesk/copenhagen_theme/blob/master/LICENSE)).
 
 ## Previewing Locally
 
