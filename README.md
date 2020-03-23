@@ -21,7 +21,7 @@ Perform the following step to preview and edit the theme locally:
   + Enter your API token for password
   + You should get a link to theme preview. Preview mode supports live reloading so whenever you edit template files the changes should be reflected nearly instantly
 6. If running `zat theme preview` on Windows returns an error related to EventMachine (`Unable to load the EventMachine C extension`), follow these steps:
-  + `gem uninstall eventmachine`
+  + Run `gem uninstall eventmachine` and uninstall all versions
   + `gem install eventmachine --platform ruby`
   + Run `zat theme preview` again
   + [Find more information about this issue on GitHub](https://github.com/oneclick/rubyinstaller2/issues/96)
