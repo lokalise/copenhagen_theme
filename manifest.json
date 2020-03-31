@@ -1,7 +1,7 @@
 {
   "name": "Copenhagen",
   "author": "Zendesk",
-  "version": "2.2.3.5",
+  "version": "2.2.3.6",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
@@ -59,7 +59,7 @@
               "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
             },
             {
-              "label": "Graphik Bolkd",
+              "label": "Graphik Bold",
               "value": "'Graphik Bold', sans-serif"
             },
             {
