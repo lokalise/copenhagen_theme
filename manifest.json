@@ -133,7 +133,7 @@
             },
             {
               "label": "Graphik",
-              "value": "Graphik, sans-serif"
+              "value": "Graphik, 'Comic Sans MS', sans-serif"
             },
             {
               "label": "Arial",
@@ -196,7 +196,7 @@
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
           ],
-          "value": "'Graphik', 'Comic Sans MS', sans-serif"
+          "value": "Graphik, 'Comic Sans MS', sans-serif"
         }
       ]
     },
