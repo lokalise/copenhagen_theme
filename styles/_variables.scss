@@ -1,7 +1,7 @@
 // Variables
 @font-face {
   font-family: 'Graphik';
-  src: url('#{$assets-graphik-reg-eot}');
+  src: url($assets-graphik-reg-eot);
   src: url("#{$assets-graphik-reg-eot}?#iefix") format('embedded-opentype'),
     url("#{$assets-graphik-reg-woff2}") format('woff2'),
     url("#{$assets-graphik-reg-woff}") format('woff'),
