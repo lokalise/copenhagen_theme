@@ -2,12 +2,24 @@
 @font-face {
   font-family: 'Graphik';
   src: url($assets-graphik-reg-eot);
-  src: url($assets-graphik-reg-eot + "#iefix") format('embedded-opentype'),
-    url("#{$assets-graphik-reg-woff2}") format('woff2'),
-    url("#{$assets-graphik-reg-woff}") format('woff'),
-    url("#{$assets-graphik-reg-ttf}") format('truetype'),
-    url("#{$assets-graphik-reg-svg}#GraphikLC-Regular") format('svg');
+  src: url($assets-graphik-reg-eot + "?#iefix") format('embedded-opentype'),
+    url($assets-graphik-reg-woff2) format('woff2'),
+    url($assets-graphik-reg-woff) format('woff'),
+    url($assets-graphik-reg-ttf) format('truetype'),
+    url($assets-graphik-reg-svg + "#GraphikLC-Regular") format('svg');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik Bold';
+  src: url($assets-graphik-bold-eot);
+  src: url($assets-graphik-bold-eot + "?#iefix") format('embedded-opentype'),
+    url($assets-graphik-bold-woff2) format('woff2'),
+    url($assets-graphik-bold-woff) format('woff'),
+    url($assets-graphik-bold-ttf) format('truetype'),
+    url($assets-graphik-bold-svg + "#GraphikLC-Semibold") format('svg');
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -45,8 +57,8 @@ $desktop-width: 1024px;
 $max-width-container: 1160px;
 
 // Fonts
-$heading_font: 'Graphik', Arial, sans-serif !default;
-$text_font: Graphik, 'Comic Sans MS', sans-serif !default;
+$heading_font: 'Graphik Bold', sans-serif !default;
+$text_font: Graphik, sans-serif !default;
 $font-weight-base: 400;
 $font-weight-light: 300;
 $font-weight-semibold: 600;

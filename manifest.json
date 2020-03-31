@@ -1,7 +1,7 @@
 {
   "name": "Copenhagen",
   "author": "Zendesk",
-  "version": "2.2.3.4",
+  "version": "2.2.3.5",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
@@ -59,6 +59,10 @@
               "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
             },
             {
+              "label": "Graphik Bolkd",
+              "value": "'Graphik Bold', sans-serif"
+            },
+            {
               "label": "Arial",
               "value": "Arial, 'Helvetica Neue', Helvetica, sans-serif"
             },
@@ -119,7 +123,7 @@
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
           ],
-          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+          "value": "'Graphik Bold', sans-serif"
         },
         {
           "identifier": "text_font",
@@ -133,7 +137,7 @@
             },
             {
               "label": "Graphik",
-              "value": "Graphik, 'Comic Sans MS', sans-serif"
+              "value": "Graphik, sans-serif"
             },
             {
               "label": "Arial",
@@ -196,7 +200,7 @@
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
           ],
-          "value": "Graphik, 'Comic Sans MS', sans-serif"
+          "value": "Graphik, sans-serif"
         }
       ]
     },
